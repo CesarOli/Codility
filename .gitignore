@@ -1,0 +1,17 @@
+# Ignorar o ambiente virtual
+Codility/bin
+Codility/include
+Codility/lib
+Codility/lib64
+
+
+# Ignorar arquivos Python de cache
+__pycache__/
+*.pyc
+
+# Ignorar arquivos ou diretórios desnecessários (por exemplo, logs, builds)
+*.log
+*.build
+
+# Garantir que long_password não seja ignorado
+!long_password/
